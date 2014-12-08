@@ -1,52 +1,71 @@
-/* Your Website Styles */
+/* Your Website Styles*/
+
+body {
+  background: #D1DBBD;
+  margin-top: 20px;
+
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #193441;
+  border-bottom: 5px solid #193441;
+}
+
+h4 {
+  font-family: 'Orbitron', sans-serif;
+  color: #3E606F;
+  text-align: right;
+}
 
 
 
 /* Gallery Stying */
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
+section img {
+  margin: 0;
+  
+  float: left;
 }
 
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
+#beverly {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #3E606F;
 }
 
-/*
-	Theme controls how everything looks in Gallery CSS.
-*/
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: -120px;
-  width: 100%;
-  text-align: center;
+#pioneer {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #193441;
 }
 
-.gallery .controls img {
-  border: 5px solid #000;
+#landscape {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #193441;
 }
 
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
+#smith {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #3E606F;
 }
+
+#bridge {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #3E606F;
+}
+
+#safeco {
+  width: 45%;
+  border-radius: 15%;
+  border: 5px solid #193441;
+}
+
 
 
 /* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
+/*.showgrid {
+  background: url("../img/grid-bg.png") repeat-y;
+}*/
